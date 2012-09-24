@@ -18,7 +18,7 @@ $(document).ready(function(){
 			$(this).addClass("done");
 		}
 		//$(this).addClass("done");
-	})
+	});
 	
 	$("img").on("dblclick", function(){
 		 $("img").width(200);
