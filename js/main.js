@@ -2,7 +2,12 @@
 // $("img").width(200);
 
 $(document).ready(function(){
-
+	$("button").on("click",function(){
+		$(".booboo").html(
+			$("textarea").val()
+		);
+		
+	});
 
 	$("li").on("click",function(){
 
